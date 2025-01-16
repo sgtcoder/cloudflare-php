@@ -82,7 +82,7 @@ class DNS implements API
         string $name = '',
         string $content = '',
         int $page = 1,
-        int $perPage = 20,
+        int $perPage = 500,
         string $order = '',
         string $direction = '',
         string $match = 'all'
